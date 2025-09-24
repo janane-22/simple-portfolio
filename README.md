@@ -1,6 +1,6 @@
-Simple-Portfolio 
+#Simple-Portfolio 
      Welcome to my website !
-**#Features**
+##Features
 
 Home Page with simple layout and content
 
@@ -10,13 +10,12 @@ Built using only HTML & CSS (no frameworks)
 
 Beginner-friendly project
 
-**#Technologies Used**
+##Technologies Used
 
 HTML5
 
 CSS3
-**#How to View**
-
+##How to View
 you can access my simple portfolio website by visiting 
 
 Thank you for visiting my portfolio website!!
