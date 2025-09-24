@@ -16,6 +16,6 @@ Welcome to my website!
 
 ## How to View
 
-You can access my simple portfolio website by visiting...
+You can access my simple portfolio website by visiting...https://janane-22.github.io/simple-portfolio/
 
 Thank you for visiting my portfolio website!!
