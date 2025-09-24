@@ -1,21 +1,21 @@
-#Simple-Portfolio 
-     Welcome to my website !
-##Features
+# Simple-Portfolio
 
-Home Page with simple layout and content
+Welcome to my website!
 
-Contact Page with basic contact details
+## Features
 
-Built using only HTML & CSS (no frameworks)
+- Home Page with simple layout and content
+- Contact Page with basic contact details
+- Built using only HTML & CSS (no frameworks)
+- Beginner-friendly project
 
-Beginner-friendly project
+## Technologies Used
 
-##Technologies Used
+- HTML5
+- CSS3
 
-HTML5
+## How to View
 
-CSS3
-##How to View
-you can access my simple portfolio website by visiting 
+You can access my simple portfolio website by visiting...
 
 Thank you for visiting my portfolio website!!
