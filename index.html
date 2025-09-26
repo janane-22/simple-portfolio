@@ -2,55 +2,74 @@
 <html lang="en">
 
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>JANANE_PORTFOLIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
 </head>
+</head>
 
 <body>
+    <div class="section-one">
+        <h1 class="section-one__title">Reestar</h1>
+        <p class="section-one__nav">Home | Receipe | Conatct</p>
+    </div>
     <div class="container">
-        <div class="section-one">
-            <h1 class="section-one__name">Janane S</h1>
-            <p class="section-one__role">Web Developer</p>
-            <a class="section-one__contact" href="contactform.html">Contact</a>
+        <div class="container__sec1">
+            <img class="container__sec1__imag" src="images/paneer.webp" alt="1st image">
+            <h3 class="container__sec1__title">Paneer Butter Masala</h3>
+            <p class="container__sec1__desc">Something which is<br> very Delicious</p>
+            <Button class="container__sec1__button">Order Now</Button>
         </div>
-        <div class="section-two">
-            <h2 class="section-two__title">About me</h2>
-            <p class="section-two__desc">I am an aspiring Web Developer currently pursuing a Master of Computer Applications (MCA) with strong expertise in frontend technologies including HTML, CSS, and JavaScript fundamentals, complemented by backend knowledge in Python and Java. I have built responsive and user-friendly web applications through academic projects and internships, with experience in database management using MySQL and version control with Git/GitHub. Passionate about crafting seamless digital experiences and solving complex problems efficiently, I continuously refine my coding skills and stay updated with modern web development practices to deliver high-quality software solutions.</p>
+        <div class="container__sec2">
+            <img class="container__sec2__imag" src="images/noodle.jpeg" alt="1st image">
+            <h3 class="container__sec2__title">Nooodles</h3>
+            <p class="container__sec2__desc">Something which is<br> very Delicious</p>
+            <Button class="container__sec2__button">Order Now</Button>
         </div>
-        <div class="section-three">
-            <h2 class="section-three__title">My Interest</h2>
-            <ul class="section-three__desc">
-                <li>Designing</li>
-                <li>Art and Craft</li>
-                <li>Web Development</li>
-                <li>Listining music</li>
-            </ul>
+        <div class="container__sec3">
+            <img class="container__sec3__imag" src="images/manchurian.jpeg" alt="1st image">
+            <h3 class="container__sec3__title">Gobi Manchurian</h3>
+            <p class="container__sec3__desc">Something which is<br> very Delicious</p>
+            <Button class="container__sec3__button">Order Now</Button>
         </div>
-        <div class="section-four">
-        <h2 class="section-four__title">My Projects</h2>
-        <ul class="section-four__desc">
-            <li>
-                <h3>Brightmind</h3>
-            </li>
-            <p>BrightMind is a simple and accessible AI chatbot designed to support
- mental wellness.</p>
-            <li>
-                <h3>Tunespace</h3>
-            </li>
-            <p>Tunespace is a user-friendly web-based music studio booking system.</p>
-        </ul>
+        <div class="container__sec4">
+            <img class="container__sec4__imag" src="images/pancake.jpeg" alt="1st image">
+            <h3 class="container__sec4__title">Honey Butter Pancake </h3>
+            <p class="container__sec4__desc">Something which is<br> very Delicious</p>
+            <Button class="container__sec4__button">Order Now</Button>
         </div>
-        <div class="section-five">
-        <p class="section-five__title">Social Media
-            <a href="https://github.com/janane-22">Github</a>
-        </p>
-        <p class="section-five__desc">&copy; Janane</p>
-        </div>
+
+    </div>
+    <div class="section-contact">
+        <p class="section-contact__title">Contact Us</p>
+         <form class="section-contact__form">
+            
+                <table>
+                    <tr class="section-contact__table1">
+                        <td>Name:</td>
+                        <td><input type="text" placeholder="Name" class="section-contact__input"></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="number" placeholder="Age" class="section-contact__input"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input placeholder="Email" class="section-contact__input"></input>
+                        </td>
+                        
+                </tr>
+                
+            </table>
+        </form>
+        
+        <button class="section-contact__button">Send</button>
+
     </div>
 </body>
 
